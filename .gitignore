@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# trained models
+src/grasp/models
+src/mscn/models
+
+# data files
+results.csv
+*predictions.csv
+*.npy
+*.json
+*.tar
+*.tar.gz

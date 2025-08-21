@@ -1,0 +1,17 @@
+name,min,max,cardinality,num_unique_values
+nation.n_name,0.0,1.0,25,-1
+region.r_name,1.0,1.0,5,-1
+part.p_container,0.0,4.0,200000000,-1
+part.p_brand,1.0,1.0,-1,-1
+part.p_type,1.0,1.0,-1,-1
+part.p_size,4.073170731707316,43.0,-1,-1
+part.p_name,1.0,2.0,-1,-1
+supplier.s_comment,3.0,3.0,10000000,-1
+partsupp.ps_comment,1.0,1.0,800000000,-1
+customer.c_mktsegment,1.0,1.0,150000000,-1
+orders.o_comment,3.0,3.0,1500000000,-1
+orders.o_orderdate,725846400.0,883612800.0,-1,-1
+orders.o_orderstatus,1.0,1.0,-1,-1
+lineitem.l_shipdate,725846400.0,907027200.0,5999989709,-1
+lineitem.l_receiptdate,757382400.0,883612800.0,-1,-1
+lineitem.l_shipmode,2.0,2.0,-1,-1
