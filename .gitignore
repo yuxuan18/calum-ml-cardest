@@ -20,7 +20,7 @@ models/tpch
 results.csv
 *predictions.csv
 *.npy
-*.json
+data/*/*.json
 *.tar
 *.tar.gz
 *.pkl
