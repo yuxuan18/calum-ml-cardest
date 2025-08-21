@@ -12,7 +12,7 @@ wheels/
 # trained models
 src/grasp/models
 src/mscn/models
-models
+./models
 
 # data files
 results.csv
