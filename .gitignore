@@ -12,7 +12,9 @@ wheels/
 # trained models
 src/grasp/models
 src/mscn/models
-./models
+models/devmind
+models/tpcds
+models/tpch
 
 # data files
 results.csv
