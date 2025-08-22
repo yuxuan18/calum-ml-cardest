@@ -123,3 +123,36 @@ to test tpch:
 ```bash
 uv run train.py tpch_test --epoch 10000 --test_only --dataset tpch
 ```
+
+## Calculate Uncertainty and Threshold
+
+Prediction files (`.csv`) and embedding files (`.npy`) should be prepared before calculating the uncertainty.
+1. A prediction file is a CSV file with two columns: ['truecard', 'predcard']. Note that the prediction file should not contain a header.
+2. An embedding file is a NPY file containing a list of embedding vectors.
+
+Both files can be obtained by running the zero-shot model.
+
+To get uncertainty quantification of test data, run the following command with appropriate parameters.
+```bash
+uv run src/calculate_uncertainty.py --mode uncertainty \
+--train_prediction_file {prediction_file_of_training_data} \
+--train_embedding_file {embedding_file_of_training_data} \
+--test_embedding_file {embedding_file_of_test_data} \
+--test_uncertainty_file {output_file} \
+--k_ratio 0.0005
+```
+`k_ratio` defines the number of nearest neighbor to consider according to a specific ratio of the training data. We suggest using 0.0005 for a large training dataset (>10k) and 0.1 for a small training dataset (~1k)
+
+To get a threshold with Q-error interpretations, run the following command with appropriate parameters
+```bash
+uv run src/calculate_uncertainty.py --mode threshold \
+--train_prediction_file {prediction_file_of_training_data} \
+--train_embedding_file {embedding_file_of_training_data} \
+--test_embedding_file {embedding_file_of_test_data} \
+--test_uncertainty_file {output_file} \
+--k_ratio 0.0005 \
+--validation_ratio 0.2 \
+--max_qerror 25 \
+--target_recall 0.8
+```
+`validation_ratio` defines the number of data used for calibrate the threshold. We suggest using 0.2 for a large training dataset (>10k) and 0.8 for a small training dataset (~1k).
