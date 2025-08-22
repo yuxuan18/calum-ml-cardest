@@ -1,0 +1,3077 @@
+{
+  "column_stats": [
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_address_sk",
+      "data_type": "integer",
+      "table_size": 6000000,
+      "column_id": 0
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_address_id",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 1
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_street_number",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 2
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_street_name",
+      "data_type": "varchar",
+      "table_size": 6000000,
+      "column_id": 3
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_street_type",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 4
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_suite_number",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 5
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_city",
+      "data_type": "varchar",
+      "table_size": 6000000,
+      "column_id": 6
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_county",
+      "data_type": "varchar",
+      "table_size": 6000000,
+      "column_id": 7
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_state",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 8
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_zip",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 9
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_country",
+      "data_type": "varchar",
+      "table_size": 6000000,
+      "column_id": 10
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_gmt_offset",
+      "data_type": "decimal",
+      "table_size": 6000000,
+      "column_id": 11
+    },
+    {
+      "tablename": "customer_address",
+      "attnum": "ca_location_type",
+      "data_type": "char",
+      "table_size": 6000000,
+      "column_id": 12
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_demo_sk",
+      "data_type": "integer",
+      "table_size": 1920800,
+      "column_id": 13
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_gender",
+      "data_type": "char",
+      "table_size": 1920800,
+      "column_id": 14
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_marital_status",
+      "data_type": "char",
+      "table_size": 1920800,
+      "column_id": 15
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_education_status",
+      "data_type": "char",
+      "table_size": 1920800,
+      "column_id": 16
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_purchase_estimate",
+      "data_type": "integer",
+      "table_size": 1920800,
+      "column_id": 17
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_credit_rating",
+      "data_type": "char",
+      "table_size": 1920800,
+      "column_id": 18
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_dep_count",
+      "data_type": "integer",
+      "table_size": 1920800,
+      "column_id": 19
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_dep_employed_count",
+      "data_type": "integer",
+      "table_size": 1920800,
+      "column_id": 20
+    },
+    {
+      "tablename": "customer_demographics",
+      "attnum": "cd_dep_college_count",
+      "data_type": "integer",
+      "table_size": 1920800,
+      "column_id": 21
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_date_sk",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 22
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_date_id",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 23
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_date",
+      "data_type": "date",
+      "table_size": 73049,
+      "column_id": 24
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_month_seq",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 25
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_week_seq",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 26
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_quarter_seq",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 27
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_year",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 28
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_dow",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 29
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_moy",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 30
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_dom",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 31
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_qoy",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 32
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_fy_year",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 33
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_fy_quarter_seq",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 34
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_fy_week_seq",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 35
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_day_name",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 36
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_quarter_name",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 37
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_holiday",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 38
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_weekend",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 39
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_following_holiday",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 40
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_first_dom",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 41
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_last_dom",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 42
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_same_day_ly",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 43
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_same_day_lq",
+      "data_type": "integer",
+      "table_size": 73049,
+      "column_id": 44
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_current_day",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 45
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_current_week",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 46
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_current_month",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 47
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_current_quarter",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 48
+    },
+    {
+      "tablename": "date_dim",
+      "attnum": "d_current_year",
+      "data_type": "char",
+      "table_size": 73049,
+      "column_id": 49
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_warehouse_sk",
+      "data_type": "integer",
+      "table_size": 20,
+      "column_id": 50
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_warehouse_id",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 51
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_warehouse_name",
+      "data_type": "varchar",
+      "table_size": 20,
+      "column_id": 52
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_warehouse_sq_ft",
+      "data_type": "integer",
+      "table_size": 20,
+      "column_id": 53
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_street_number",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 54
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_street_name",
+      "data_type": "varchar",
+      "table_size": 20,
+      "column_id": 55
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_street_type",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 56
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_suite_number",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 57
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_city",
+      "data_type": "varchar",
+      "table_size": 20,
+      "column_id": 58
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_county",
+      "data_type": "varchar",
+      "table_size": 20,
+      "column_id": 59
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_state",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 60
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_zip",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 61
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_country",
+      "data_type": "varchar",
+      "table_size": 20,
+      "column_id": 62
+    },
+    {
+      "tablename": "warehouse",
+      "attnum": "w_gmt_offset",
+      "data_type": "decimal",
+      "table_size": 20,
+      "column_id": 63
+    },
+    {
+      "tablename": "ship_mode",
+      "attnum": "sm_ship_mode_sk",
+      "data_type": "integer",
+      "table_size": 20,
+      "column_id": 64
+    },
+    {
+      "tablename": "ship_mode",
+      "attnum": "sm_ship_mode_id",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 65
+    },
+    {
+      "tablename": "ship_mode",
+      "attnum": "sm_type",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 66
+    },
+    {
+      "tablename": "ship_mode",
+      "attnum": "sm_code",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 67
+    },
+    {
+      "tablename": "ship_mode",
+      "attnum": "sm_carrier",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 68
+    },
+    {
+      "tablename": "ship_mode",
+      "attnum": "sm_contract",
+      "data_type": "char",
+      "table_size": 20,
+      "column_id": 69
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_time_sk",
+      "data_type": "integer",
+      "table_size": 86400,
+      "column_id": 70
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_time_id",
+      "data_type": "char",
+      "table_size": 86400,
+      "column_id": 71
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_time",
+      "data_type": "integer",
+      "table_size": 86400,
+      "column_id": 72
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_hour",
+      "data_type": "integer",
+      "table_size": 86400,
+      "column_id": 73
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_minute",
+      "data_type": "integer",
+      "table_size": 86400,
+      "column_id": 74
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_second",
+      "data_type": "integer",
+      "table_size": 86400,
+      "column_id": 75
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_am_pm",
+      "data_type": "char",
+      "table_size": 86400,
+      "column_id": 76
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_shift",
+      "data_type": "char",
+      "table_size": 86400,
+      "column_id": 77
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_sub_shift",
+      "data_type": "char",
+      "table_size": 86400,
+      "column_id": 78
+    },
+    {
+      "tablename": "time_dim",
+      "attnum": "t_meal_time",
+      "data_type": "char",
+      "table_size": 86400,
+      "column_id": 79
+    },
+    {
+      "tablename": "reason",
+      "attnum": "r_reason_sk",
+      "data_type": "integer",
+      "table_size": 65,
+      "column_id": 80
+    },
+    {
+      "tablename": "reason",
+      "attnum": "r_reason_id",
+      "data_type": "char",
+      "table_size": 65,
+      "column_id": 81
+    },
+    {
+      "tablename": "reason",
+      "attnum": "r_reason_desc",
+      "data_type": "char",
+      "table_size": 65,
+      "column_id": 82
+    },
+    {
+      "tablename": "income_band",
+      "attnum": "ib_income_band_sk",
+      "data_type": "integer",
+      "table_size": 20,
+      "column_id": 83
+    },
+    {
+      "tablename": "income_band",
+      "attnum": "ib_lower_bound",
+      "data_type": "integer",
+      "table_size": 20,
+      "column_id": 84
+    },
+    {
+      "tablename": "income_band",
+      "attnum": "ib_upper_bound",
+      "data_type": "integer",
+      "table_size": 20,
+      "column_id": 85
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_item_sk",
+      "data_type": "integer",
+      "table_size": 300000,
+      "column_id": 86
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_item_id",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 87
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_rec_start_date",
+      "data_type": "date",
+      "table_size": 300000,
+      "column_id": 88
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_rec_end_date",
+      "data_type": "date",
+      "table_size": 300000,
+      "column_id": 89
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_item_desc",
+      "data_type": "varchar",
+      "table_size": 300000,
+      "column_id": 90
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_current_price",
+      "data_type": "decimal",
+      "table_size": 300000,
+      "column_id": 91
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 300000,
+      "column_id": 92
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_brand_id",
+      "data_type": "integer",
+      "table_size": 300000,
+      "column_id": 93
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_brand",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 94
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_class_id",
+      "data_type": "integer",
+      "table_size": 300000,
+      "column_id": 95
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_class",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 96
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_category_id",
+      "data_type": "integer",
+      "table_size": 300000,
+      "column_id": 97
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_category",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 98
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_manufact_id",
+      "data_type": "integer",
+      "table_size": 300000,
+      "column_id": 99
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_manufact",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 100
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_size",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 101
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_formulation",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 102
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_color",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 103
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_units",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 104
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_container",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 105
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_manager_id",
+      "data_type": "integer",
+      "table_size": 300000,
+      "column_id": 106
+    },
+    {
+      "tablename": "item",
+      "attnum": "i_product_name",
+      "data_type": "char",
+      "table_size": 300000,
+      "column_id": 107
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_store_sk",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 108
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_store_id",
+      "data_type": "char",
+      "table_size": 1002,
+      "column_id": 109
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_rec_start_date",
+      "data_type": "date",
+      "table_size": 1002,
+      "column_id": 110
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_rec_end_date",
+      "data_type": "date",
+      "table_size": 1002,
+      "column_id": 111
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_closed_date_sk",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 112
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_store_name",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 113
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_number_employees",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 114
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_floor_space",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 115
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_hours",
+      "data_type": "char",
+      "table_size": 1002,
+      "column_id": 116
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_manager",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 117
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_market_id",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 118
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_geography_class",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 119
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_market_desc",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 120
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_market_manager",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 121
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_division_id",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 122
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_division_name",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 123
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_company_id",
+      "data_type": "integer",
+      "table_size": 1002,
+      "column_id": 124
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_company_name",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 125
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_street_number",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 126
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_street_name",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 127
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_street_type",
+      "data_type": "char",
+      "table_size": 1002,
+      "column_id": 128
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_suite_number",
+      "data_type": "char",
+      "table_size": 1002,
+      "column_id": 129
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_city",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 130
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_county",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 131
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_state",
+      "data_type": "char",
+      "table_size": 1002,
+      "column_id": 132
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_zip",
+      "data_type": "char",
+      "table_size": 1002,
+      "column_id": 133
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_country",
+      "data_type": "varchar",
+      "table_size": 1002,
+      "column_id": 134
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_gmt_offset",
+      "data_type": "decimal",
+      "table_size": 1002,
+      "column_id": 135
+    },
+    {
+      "tablename": "store",
+      "attnum": "s_tax_precentage",
+      "data_type": "decimal",
+      "table_size": 1002,
+      "column_id": 136
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_call_center_sk",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 137
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_call_center_id",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 138
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_rec_start_date",
+      "data_type": "date",
+      "table_size": 10,
+      "column_id": 139
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_rec_end_date",
+      "data_type": "date",
+      "table_size": 10,
+      "column_id": 140
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_closed_date_sk",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 141
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_open_date_sk",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 142
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_name",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 143
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_class",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 144
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_employees",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 145
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_sq_ft",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 146
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_hours",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 147
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_manager",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 148
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_mkt_id",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 149
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_mkt_class",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 150
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_mkt_desc",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 151
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_market_manager",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 152
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_division",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 153
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_division_name",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 154
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_company",
+      "data_type": "integer",
+      "table_size": 10,
+      "column_id": 155
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_company_name",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 156
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_street_number",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 157
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_street_name",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 158
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_street_type",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 159
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_suite_number",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 160
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_city",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 161
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_county",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 162
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_state",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 163
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_zip",
+      "data_type": "char",
+      "table_size": 10,
+      "column_id": 164
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_country",
+      "data_type": "varchar",
+      "table_size": 10,
+      "column_id": 165
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_gmt_offset",
+      "data_type": "decimal",
+      "table_size": 10,
+      "column_id": 166
+    },
+    {
+      "tablename": "call_center",
+      "attnum": "cc_tax_percentage",
+      "data_type": "decimal",
+      "table_size": 10,
+      "column_id": 167
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_customer_sk",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 168
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_customer_id",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 169
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_current_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 170
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_current_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 171
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_current_addr_sk",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 172
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_first_shipto_date_sk",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 173
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_first_sales_date_sk",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 174
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_salutation",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 175
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_first_name",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 176
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_last_name",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 177
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_preferred_cust_flag",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 178
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_birth_day",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 179
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_birth_month",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 180
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_birth_year",
+      "data_type": "integer",
+      "table_size": 12000000,
+      "column_id": 181
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_birth_country",
+      "data_type": "varchar",
+      "table_size": 12000000,
+      "column_id": 182
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_login",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 183
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_email_address",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 184
+    },
+    {
+      "tablename": "customer",
+      "attnum": "c_last_review_date",
+      "data_type": "char",
+      "table_size": 12000000,
+      "column_id": 185
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_site_sk",
+      "data_type": "integer",
+      "table_size": 54,
+      "column_id": 186
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_site_id",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 187
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_rec_start_date",
+      "data_type": "date",
+      "table_size": 54,
+      "column_id": 188
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_rec_end_date",
+      "data_type": "date",
+      "table_size": 54,
+      "column_id": 189
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_name",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 190
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_open_date_sk",
+      "data_type": "integer",
+      "table_size": 54,
+      "column_id": 191
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_close_date_sk",
+      "data_type": "integer",
+      "table_size": 54,
+      "column_id": 192
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_class",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 193
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_manager",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 194
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_mkt_id",
+      "data_type": "integer",
+      "table_size": 54,
+      "column_id": 195
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_mkt_class",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 196
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_mkt_desc",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 197
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_market_manager",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 198
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_company_id",
+      "data_type": "integer",
+      "table_size": 54,
+      "column_id": 199
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_company_name",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 200
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_street_number",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 201
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_street_name",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 202
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_street_type",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 203
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_suite_number",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 204
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_city",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 205
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_county",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 206
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_state",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 207
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_zip",
+      "data_type": "char",
+      "table_size": 54,
+      "column_id": 208
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_country",
+      "data_type": "varchar",
+      "table_size": 54,
+      "column_id": 209
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_gmt_offset",
+      "data_type": "decimal",
+      "table_size": 54,
+      "column_id": 210
+    },
+    {
+      "tablename": "web_site",
+      "attnum": "web_tax_percentage",
+      "data_type": "decimal",
+      "table_size": 54,
+      "column_id": 211
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_returned_date_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 212
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_return_time_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 213
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_item_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 214
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_customer_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 215
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 216
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 217
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_addr_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 218
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_store_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 219
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_reason_sk",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 220
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_ticket_number",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 221
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_return_quantity",
+      "data_type": "integer",
+      "table_size": 287999764,
+      "column_id": 222
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_return_amt",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 223
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_return_tax",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 224
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_return_amt_inc_tax",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 225
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_fee",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 226
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_return_ship_cost",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 227
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_refunded_cash",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 228
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_reversed_charge",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 229
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_store_credit",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 230
+    },
+    {
+      "tablename": "store_returns",
+      "attnum": "sr_net_loss",
+      "data_type": "decimal",
+      "table_size": 287999764,
+      "column_id": 231
+    },
+    {
+      "tablename": "household_demographics",
+      "attnum": "hd_demo_sk",
+      "data_type": "integer",
+      "table_size": 14,
+      "column_id": 232
+    },
+    {
+      "tablename": "household_demographics",
+      "attnum": "hd_income_band_sk",
+      "data_type": "integer",
+      "table_size": 14,
+      "column_id": 233
+    },
+    {
+      "tablename": "household_demographics",
+      "attnum": "hd_buy_potential",
+      "data_type": "char",
+      "table_size": 14,
+      "column_id": 234
+    },
+    {
+      "tablename": "household_demographics",
+      "attnum": "hd_dep_count",
+      "data_type": "integer",
+      "table_size": 14,
+      "column_id": 235
+    },
+    {
+      "tablename": "household_demographics",
+      "attnum": "hd_vehicle_count",
+      "data_type": "integer",
+      "table_size": 14,
+      "column_id": 236
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_web_page_sk",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 237
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_web_page_id",
+      "data_type": "char",
+      "table_size": 3000,
+      "column_id": 238
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_rec_start_date",
+      "data_type": "date",
+      "table_size": 3000,
+      "column_id": 239
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_rec_end_date",
+      "data_type": "date",
+      "table_size": 3000,
+      "column_id": 240
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_creation_date_sk",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 241
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_access_date_sk",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 242
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_autogen_flag",
+      "data_type": "char",
+      "table_size": 3000,
+      "column_id": 243
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_customer_sk",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 244
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_url",
+      "data_type": "varchar",
+      "table_size": 3000,
+      "column_id": 245
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_type",
+      "data_type": "char",
+      "table_size": 3000,
+      "column_id": 246
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_char_count",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 247
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_link_count",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 248
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_image_count",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 249
+    },
+    {
+      "tablename": "web_page",
+      "attnum": "wp_max_ad_count",
+      "data_type": "integer",
+      "table_size": 3000,
+      "column_id": 250
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_promo_sk",
+      "data_type": "integer",
+      "table_size": 1500,
+      "column_id": 251
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_promo_id",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 252
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_start_date_sk",
+      "data_type": "integer",
+      "table_size": 1500,
+      "column_id": 253
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_end_date_sk",
+      "data_type": "integer",
+      "table_size": 1500,
+      "column_id": 254
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_item_sk",
+      "data_type": "integer",
+      "table_size": 1500,
+      "column_id": 255
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_cost",
+      "data_type": "decimal",
+      "table_size": 1500,
+      "column_id": 256
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_response_target",
+      "data_type": "integer",
+      "table_size": 1500,
+      "column_id": 257
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_promo_name",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 258
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_dmail",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 259
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_email",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 260
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_catalog",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 261
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_tv",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 262
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_radio",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 263
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_press",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 264
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_event",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 265
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_demo",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 266
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_channel_details",
+      "data_type": "varchar",
+      "table_size": 1500,
+      "column_id": 267
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_purpose",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 268
+    },
+    {
+      "tablename": "promotion",
+      "attnum": "p_discount_active",
+      "data_type": "char",
+      "table_size": 1500,
+      "column_id": 269
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_catalog_page_sk",
+      "data_type": "integer",
+      "table_size": 30000,
+      "column_id": 270
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_catalog_page_id",
+      "data_type": "char",
+      "table_size": 30000,
+      "column_id": 271
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_start_date_sk",
+      "data_type": "integer",
+      "table_size": 30000,
+      "column_id": 272
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_end_date_sk",
+      "data_type": "integer",
+      "table_size": 30000,
+      "column_id": 273
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_department",
+      "data_type": "varchar",
+      "table_size": 30000,
+      "column_id": 274
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_catalog_number",
+      "data_type": "integer",
+      "table_size": 30000,
+      "column_id": 275
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_catalog_page_number",
+      "data_type": "integer",
+      "table_size": 30000,
+      "column_id": 276
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_description",
+      "data_type": "varchar",
+      "table_size": 30000,
+      "column_id": 277
+    },
+    {
+      "tablename": "catalog_page",
+      "attnum": "cp_type",
+      "data_type": "varchar",
+      "table_size": 30000,
+      "column_id": 278
+    },
+    {
+      "tablename": "inventory",
+      "attnum": "inv_date_sk",
+      "data_type": "integer",
+      "table_size": 18,
+      "column_id": 279
+    },
+    {
+      "tablename": "inventory",
+      "attnum": "inv_item_sk",
+      "data_type": "integer",
+      "table_size": 18,
+      "column_id": 280
+    },
+    {
+      "tablename": "inventory",
+      "attnum": "inv_warehouse_sk",
+      "data_type": "integer",
+      "table_size": 18,
+      "column_id": 281
+    },
+    {
+      "tablename": "inventory",
+      "attnum": "inv_quantity_on_hand",
+      "data_type": "integer",
+      "table_size": 18,
+      "column_id": 282
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_returned_date_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 283
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_returned_time_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 284
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_item_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 285
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_refunded_customer_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 286
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_refunded_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 287
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_refunded_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 288
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_refunded_addr_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 289
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_returning_customer_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 290
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_returning_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 291
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_returning_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 292
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_returning_addr_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 293
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_call_center_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 294
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_catalog_page_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 295
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_ship_mode_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 296
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_warehouse_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 297
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_reason_sk",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 298
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_order_number",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 299
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_return_quantity",
+      "data_type": "integer",
+      "table_size": 19,
+      "column_id": 300
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_return_amount",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 301
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_return_tax",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 302
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_return_amt_inc_tax",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 303
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_fee",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 304
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_return_ship_cost",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 305
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_refunded_cash",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 306
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_reversed_charge",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 307
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_store_credit",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 308
+    },
+    {
+      "tablename": "catalog_returns",
+      "attnum": "cr_net_loss",
+      "data_type": "decimal",
+      "table_size": 19,
+      "column_id": 309
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_returned_date_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 310
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_returned_time_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 311
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_item_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 312
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_refunded_customer_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 313
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_refunded_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 314
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_refunded_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 315
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_refunded_addr_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 316
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_returning_customer_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 317
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_returning_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 318
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_returning_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 319
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_returning_addr_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 320
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_web_page_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 321
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_reason_sk",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 322
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_order_number",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 323
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_return_quantity",
+      "data_type": "integer",
+      "table_size": 71997522,
+      "column_id": 324
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_return_amt",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 325
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_return_tax",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 326
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_return_amt_inc_tax",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 327
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_fee",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 328
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_return_ship_cost",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 329
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_refunded_cash",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 330
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_reversed_charge",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 331
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_account_credit",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 332
+    },
+    {
+      "tablename": "web_returns",
+      "attnum": "wr_net_loss",
+      "data_type": "decimal",
+      "table_size": 71997522,
+      "column_id": 333
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_sold_date_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 334
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_sold_time_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 335
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ship_date_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 336
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_item_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 337
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_bill_customer_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 338
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_bill_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 339
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_bill_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 340
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_bill_addr_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 341
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ship_customer_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 342
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ship_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 343
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ship_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 344
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ship_addr_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 345
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_web_page_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 346
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_web_site_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 347
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ship_mode_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 348
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_warehouse_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 349
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_promo_sk",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 350
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_order_number",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 351
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_quantity",
+      "data_type": "integer",
+      "table_size": 720000376,
+      "column_id": 352
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 353
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_list_price",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 354
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_sales_price",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 355
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ext_discount_amt",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 356
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ext_sales_price",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 357
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ext_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 358
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ext_list_price",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 359
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ext_tax",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 360
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_coupon_amt",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 361
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_ext_ship_cost",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 362
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_net_paid",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 363
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_net_paid_inc_tax",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 364
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_net_paid_inc_ship",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 365
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_net_paid_inc_ship_tax",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 366
+    },
+    {
+      "tablename": "web_sales",
+      "attnum": "ws_net_profit",
+      "data_type": "decimal",
+      "table_size": 720000376,
+      "column_id": 367
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_sold_date_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 368
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_sold_time_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 369
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ship_date_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 370
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_bill_customer_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 371
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_bill_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 372
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_bill_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 373
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_bill_addr_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 374
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ship_customer_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 375
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ship_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 376
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ship_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 377
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ship_addr_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 378
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_call_center_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 379
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_catalog_page_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 380
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ship_mode_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 381
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_warehouse_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 382
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_item_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 383
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_promo_sk",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 384
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_order_number",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 385
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_quantity",
+      "data_type": "integer",
+      "table_size": 1439980416,
+      "column_id": 386
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 387
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_list_price",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 388
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_sales_price",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 389
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ext_discount_amt",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 390
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ext_sales_price",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 391
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ext_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 392
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ext_list_price",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 393
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ext_tax",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 394
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_coupon_amt",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 395
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_ext_ship_cost",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 396
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_net_paid",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 397
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_net_paid_inc_tax",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 398
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_net_paid_inc_ship",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 399
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_net_paid_inc_ship_tax",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 400
+    },
+    {
+      "tablename": "catalog_sales",
+      "attnum": "cs_net_profit",
+      "data_type": "decimal",
+      "table_size": 1439980416,
+      "column_id": 401
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_sold_date_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 402
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_sold_time_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 403
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_item_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 404
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_customer_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 405
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_cdemo_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 406
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_hdemo_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 407
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_addr_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 408
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_store_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 409
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_promo_sk",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 410
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_ticket_number",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 411
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_quantity",
+      "data_type": "integer",
+      "table_size": 2879987999,
+      "column_id": 412
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 413
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_list_price",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 414
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_sales_price",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 415
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_ext_discount_amt",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 416
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_ext_sales_price",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 417
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_ext_wholesale_cost",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 418
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_ext_list_price",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 419
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_ext_tax",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 420
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_coupon_amt",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 421
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_net_paid",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 422
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_net_paid_inc_tax",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 423
+    },
+    {
+      "tablename": "store_sales",
+      "attnum": "ss_net_profit",
+      "data_type": "decimal",
+      "table_size": 2879987999,
+      "column_id": 424
+    }
+  ],
+  "table_stats": [
+    {
+      "relname": "customer_address",
+      "reltuples": 6000000
+    },
+    {
+      "relname": "customer_demographics",
+      "reltuples": 1920800
+    },
+    {
+      "relname": "date_dim",
+      "reltuples": 73049
+    },
+    {
+      "relname": "warehouse",
+      "reltuples": 20
+    },
+    {
+      "relname": "ship_mode",
+      "reltuples": 20
+    },
+    {
+      "relname": "time_dim",
+      "reltuples": 86400
+    },
+    {
+      "relname": "reason",
+      "reltuples": 65
+    },
+    {
+      "relname": "income_band",
+      "reltuples": 20
+    },
+    {
+      "relname": "item",
+      "reltuples": 300000
+    },
+    {
+      "relname": "store",
+      "reltuples": 1002
+    },
+    {
+      "relname": "call_center",
+      "reltuples": 10
+    },
+    {
+      "relname": "customer",
+      "reltuples": 12000000
+    },
+    {
+      "relname": "web_site",
+      "reltuples": 54
+    },
+    {
+      "relname": "store_returns",
+      "reltuples": 287999764
+    },
+    {
+      "relname": "household_demographics",
+      "reltuples": 14
+    },
+    {
+      "relname": "web_page",
+      "reltuples": 3000
+    },
+    {
+      "relname": "promotion",
+      "reltuples": 1500
+    },
+    {
+      "relname": "catalog_page",
+      "reltuples": 30000
+    },
+    {
+      "relname": "inventory",
+      "reltuples": 18
+    },
+    {
+      "relname": "catalog_returns",
+      "reltuples": 19
+    },
+    {
+      "relname": "web_returns",
+      "reltuples": 71997522
+    },
+    {
+      "relname": "web_sales",
+      "reltuples": 720000376
+    },
+    {
+      "relname": "catalog_sales",
+      "reltuples": 1439980416
+    },
+    {
+      "relname": "store_sales",
+      "reltuples": 2879987999
+    }
+  ]
+}

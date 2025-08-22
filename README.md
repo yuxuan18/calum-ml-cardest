@@ -1,12 +1,5 @@
 # ML-Based Query-Driven CardEst Model Used in Calum
 
-## Prepare Data
-
-Download all the files in https://drive.google.com/drive/folders/1xo5kv34YHXY49TShEdNWriW4NxjiSF_9?usp=sharing and execute the following command to decompress them.
-```bash
-./preprocess/process_data_files.sh
-```
-
 ## Install Dependencies
 We use `uv` to manager the python dependencies. To do so, you need to install `uv`.
 ```bash
@@ -14,7 +7,30 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 The run the following command to install all packages,
 ```bash
-uv sync
+uv sync 
+```
+
+## Prepare Data
+
+To start from raw data, first download raw query plans features from https://bytedance.larkoffice.com/drive/folder/GylefZMK1lPKaddbyuQcUQB6nLe and decompress all the files. Then, just execute the following command to do the convert raw query plans into processed data for training and testing.
+```bash
+# preprocess data for tpch
+mkdir -p data/tpch
+uv run preprocess/tpch_data_convert.py --input_dir tpch_1t_plans/ --output_dir data/tpch --mode train
+
+# preprocess data for tpcds
+mkdir -p data/tpcds
+uv run preprocess/tpcds_data_convert.py --input_dir tpcds_1t_plans/ --output_dir data/tpcds --mode train
+
+# proprecess data for devmind
+mkdir -p data/devmind
+uv run preprocess/tpcds_data_convert.py --input_dir tpcds_1t_plans/ --output_dir data/tpcds --mode train
+```
+---
+
+To start from processed data and trained mode, download all the files in https://bytedance.larkoffice.com/drive/folder/QcwPfHoguljrA5dhtZ8ccBpAn3g and https://bytedance.larkoffice.com/drive/folder/DbWrfNPJLl5ELPdGorHchE0Unjc and execute the following command to decompress them.
+```bash
+./preprocess/process_data_files.sh
 ```
 
 ## Train or Test Models
