@@ -26,6 +26,30 @@ uv run preprocess/tpcds_data_convert.py --input_dir tpcds_1t_plans/ --output_dir
 mkdir -p data/devmind
 uv run preprocess/tpcds_data_convert.py --input_dir tpcds_1t_plans/ --output_dir data/tpcds --mode train
 ```
+
+Finally, to use zero-shot model, we need to generate an encoding scheme using the following command:
+```bash
+# for tpch
+cd src/zs-tpch
+uv run train.py --gather_feature_statistics \
+--workload_runs tpch_train_data.json \
+--raw_dir ../../data \
+--target ../../data/tpch/statistics.json
+
+# for tpcds
+cd src/zs-tpcds
+uv run train.py --gather_feature_statistics \
+--workload_runs tpcds_train_data.json \
+--raw_dir ../../data \
+--target ../../data/tpcds/statistics.json
+
+# for tpch
+cd src/zs-devmind
+uv run train.py --gather_feature_statistics \
+--workload_runs devmind_train_data.json \
+--raw_dir ../../data \
+--target ../../data/devmind/statistics.json
+```
 ---
 
 To start from processed data and trained mode, download all the files in https://bytedance.larkoffice.com/drive/folder/QcwPfHoguljrA5dhtZ8ccBpAn3g and https://bytedance.larkoffice.com/drive/folder/DbWrfNPJLl5ELPdGorHchE0Unjc and execute the following command to decompress them.

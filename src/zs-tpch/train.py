@@ -29,7 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('--max_no_epochs', type=int, default=None)
     parser.add_argument('--limit_queries', type=int, default=None)
     parser.add_argument('--limit_queries_affected_wl', type=int, default=None)
-    parser.add_argument('--database', default="DatabaseSystem.POSTGRES", type=DatabaseSystem,
+    parser.add_argument('--database', default=DatabaseSystem.POSTGRES, type=DatabaseSystem,
                         choices=list(DatabaseSystem))
     parser.add_argument('--gather_feature_statistics', action='store_true')
     parser.add_argument('--skip_train', action='store_true')
